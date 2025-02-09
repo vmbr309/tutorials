@@ -46,3 +46,11 @@ d$ - delete to the end of the line, INCLUDING the last character.
 de - to the end of the current word, INCLUDING the last character.
 caw - delete word under cursor and put back into INSERT mode
 
+# NVIM-specific
+
+## NEWTRW
+d - create directory
+% - create file
+
+## COMMAND mode
+:Ex - file explores (newtrw)
