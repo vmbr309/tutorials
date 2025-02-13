@@ -6,7 +6,7 @@ REMOTE_REPO="git@github.com:vmbr309/gitnotes.git" # GitHub repository
 BRANCH="master"                                   # The branch to sync
 
 # Log file for debugging
-LOG_FILE="$HOME/Documents/GitHub/dotfiles/scripts/logs/qownnotes-sync-log.txt"
+LOG_FILE="$HOME/Documents/scripts/sync-git_log.txt"
 exec {fd}>>"$LOG_FILE"      # Open file descriptor for logging
 tee -a "$LOG_FILE" <&{fd} & # Pipe output to log file and console
 
