@@ -57,3 +57,7 @@ d - create directory
 
 ## COMMAND mode
 :Ex or (space)pv - file explorer (newtrw)
+
+## Find and Replace
+<leader>sb - telescope
+<leader>sg - grep
